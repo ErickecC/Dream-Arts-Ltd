@@ -4,19 +4,13 @@
            display: block;
        }    
        .cards{
-           display: grid;
-           grid-gap: 25px;
-           justify-content: center;
-           margin-left: -15px;
            
+display: flex;
+           overflow-x: scroll;
+           height: auto;
+           width: 100%;           
        }
-       .stack-stickers-card ,
-       .play-plus-card , 
-        .books-card {
-      display: grid;
-      place-items: center;
-      grid-gap: -20px;
-       }
+
        .presentacion > img{
            width: 150px;
            height: 150px;
