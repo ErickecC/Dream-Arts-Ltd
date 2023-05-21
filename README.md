@@ -1,4 +1,4 @@
 # Dream-Arts-Ltd
   Desarrolladora de aplicaciones android
-# GitHub Pagés
+# GitHub Pages
 https://erickecc.github.io/Dream-Arts-Ltd/
