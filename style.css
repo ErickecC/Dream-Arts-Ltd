@@ -1,0 +1,108 @@
+@font-face{
+    font-family: Daltd;
+    src: url('DALimited-Font.ttf');
+}
+*{
+    font-family: Daltd;
+}
+body{
+    background: linear-gradient(to bottom,#010039,#000270);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+a{
+   text-decoration: none;
+}
+.presentacion{
+    display: grid;
+    place-items: center;
+}
+.presentacion > h1{
+    color: white;
+    font-size: 50px;
+}
+.presentacion > img{
+    width: 15%;
+    height: auto;
+    transform: translateY(50%);
+}
+/*pagina dos*/
+.titulo-app{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.cards{
+    display: flex;
+   justify-content: space-between; 
+   margin-left: 5%;
+}
+.cards > div{
+background: white;
+    margin-right: 10%;
+    padding: 3% 4% 200px 4%;
+    width: 250px;
+    height: 150px;
+}
+.cards > div > img{
+    height: 160px;
+    width: 160px;
+  
+}
+.cards > div > h2{
+    font-size: 23px;
+    text-align: center;
+}
+.cards > div > p{
+    text-align: center;
+}
+
+   .stack-stickers-card ,
+       .play-plus-card , 
+        .books-card {
+      display: grid;
+      place-items: center;
+}
+
+.anuncios{
+    display: grid;
+    place-items: center;
+}
+.anuncios > h1{
+    color: white;
+}
+.anuncios > .number-one >img{
+    margin-left: 25%;
+}
+.animex-icon {
+  width: 50%;
+  height: 50%;
+  border-radius: 5%;
+}
+.anuncios > .number-one > p,h3{
+    text-align: center;
+    color: white;
+}
+.anuncios > .number-one{
+    padding: 3% 0 3% 0;
+}
+.anuncios > .number-one:hover{
+    background: #00000021;
+    animation: ease-out 3s;
+}
+footer{
+    display: flex;
+    justify-content: space-between;   
+    color: white;
+    background: #0010aa51;
+    width: 100%;
+}
+footer > section{
+    text-align: center;
+    height: 250px;
+    transform: translateX(-150px);
+    
+}
