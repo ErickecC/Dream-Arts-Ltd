@@ -3,7 +3,7 @@
     src: url('DALimited-Font.ttf');
 }
 *{
-    font-family: Daltd;
+    font-family: Daltd, arial black;
 }
 body{
     background: black;
