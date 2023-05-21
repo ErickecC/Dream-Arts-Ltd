@@ -93,15 +93,3 @@ background: white;
     background: #00000021;
     animation: ease-out 3s;
 }
-footer{
-    display: flex;
-    justify-content: space-between;   
-    color: white;
-    width: 100%;
-}
-footer > section{
-    text-align: center;
-    height: 250px;
-    transform: translateX(-150px);
-    
-}
