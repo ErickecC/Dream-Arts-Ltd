@@ -97,7 +97,6 @@ footer{
     display: flex;
     justify-content: space-between;   
     color: white;
-    background: #0010aa51;
     width: 100%;
 }
 footer > section{
