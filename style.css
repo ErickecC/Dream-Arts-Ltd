@@ -6,7 +6,7 @@
     font-family: Daltd;
 }
 body{
-    background: linear-gradient(to bottom,#010039,#000270);
+    background: black;
 }
 nav{
     display: flex;
