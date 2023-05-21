@@ -1,0 +1,36 @@
+
+@media(max-width: 460px){   
+       .menu {
+           display: block;
+       }    
+       .cards{
+           display: grid;
+           grid-gap: 25px;
+           justify-content: center;
+           margin-left: -15px;
+           
+       }
+       .stack-stickers-card ,
+       .play-plus-card , 
+        .books-card {
+      display: grid;
+      place-items: center;
+      grid-gap: -20px;
+       }
+       footer{
+           display: grid;
+           justify-content: center;
+           place-items: center;
+           background: #0010aa51;
+           width: 350px;
+       }
+       .Siguenos,
+       .texto-dos,
+       .texto-tres{
+          transform: translateX(0px);
+       }
+       .presentacion > img{
+           width: 150px;
+           height: 150px;
+       }
+}
